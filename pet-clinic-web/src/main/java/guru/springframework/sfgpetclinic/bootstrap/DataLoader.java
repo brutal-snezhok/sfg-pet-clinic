@@ -79,11 +79,11 @@ public class DataLoader implements CommandLineRunner {
         owner2.setTelephone("1231231234");
 
         Pet fionasCat = new Pet();
-        mikesPet.setPetType(savedCatPetType);
-        mikesPet.setOwner(owner1);
-        mikesPet.setBirthDate(LocalDate.now());
-        mikesPet.setName("Just Cat");
-        owner1.getPets().add(fionasCat);
+        fionasCat.setPetType(savedCatPetType);
+        fionasCat.setOwner(owner1);
+        fionasCat.setBirthDate(LocalDate.now());
+        fionasCat.setName("Just Cat");
+        owner2.getPets().add(fionasCat);
 
         ownerService.save(owner2);
 
