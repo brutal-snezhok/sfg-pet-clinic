@@ -22,7 +22,7 @@ Spring Pet Clinic is an Spring Boot application example.
  ## Domain model
  
  
- ![Image](https://github.com/cbrutal-snezhok/sfg-pet-clinic/raw/master/pet-clinic-web/src/main/resources/static/resources/images/domain-model.png)
+ ![Image](https://github.com/cbrutal-snezhok/sfg-pet-clinic/raw/master/img/domain-model.png)
 
 ## Running petclinic locally
 Petclinic is a [Spring Boot](https://spring.io/guides/gs/spring-boot) application built using [Maven](https://spring.io/guides/gs/maven/). You can build a jar file and run it from the command line:
